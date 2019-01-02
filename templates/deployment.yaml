@@ -1,0 +1,9 @@
+{{- range $deploymentKey, $deploymentVal := .Values.deployments }}
+{{- $p := dict "deploymentKey" $deploymentKey }}
+{{- $_ := merge $p . $.Values }}
+---
+apiVersion: apps/v1beta2
+kind: Deployment
+metadata:
+  name: {{ template "repro.fullname" $p }}
+{{ end }}

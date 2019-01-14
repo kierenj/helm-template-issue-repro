@@ -1,7 +1,1 @@
-someSetting: TheDefault
-deployments:
-  one:
-    role: XYZ
-  two:
-    role: ABC
-    someSetting: Overridden
+x:

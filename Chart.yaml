@@ -1,4 +1,4 @@
 apiVersion: v1
-name: repro
+name: helm-template-issue-repro
 description: Issue repro
 version: 0.1.0

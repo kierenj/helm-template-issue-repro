@@ -1,0 +1,2 @@
+{{- $p := dict "a" "b" }}
+{{- $_ := merge $p .Values }}

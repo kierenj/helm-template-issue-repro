@@ -1,3 +1,3 @@
 {{- define "repro.fullname" -}}
-{{- printf "%s" $.Chart.Name }}
+{{- printf "%s" .Chart.Name }}
 {{- end -}}
